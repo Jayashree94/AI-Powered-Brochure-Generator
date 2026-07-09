@@ -12,6 +12,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "beautifulsoup4" },
+    { name = "import-ipynb" },
     { name = "ipython" },
     { name = "jupyterlab" },
     { name = "notebook" },
@@ -23,6 +24,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.15.0" },
+    { name = "import-ipynb", specifier = ">=0.2" },
     { name = "ipython", specifier = ">=9.15.0" },
     { name = "jupyterlab", specifier = ">=4.6.1" },
     { name = "notebook", specifier = ">=7.6.0" },
@@ -460,6 +462,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz", hash = "sha256:ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848", size = 196711, upload-time = "2026-06-02T14:34:07.794Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1e/5e/d4e9f1a599fb8e573b7b87160658329fbf28d19eac2718f51fc3def3aa5a/idna-3.18-py3-none-any.whl", hash = "sha256:7f952cbe720b688055e3f87de14f5c3e5fdaa8bc3928985c4077ca689de849a2", size = 65455, upload-time = "2026-06-02T14:34:06.319Z" },
+]
+
+[[package]]
+name = "import-ipynb"
+version = "0.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "ipython" },
+    { name = "nbformat" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7d/5f/07f93b0e5a94b69a65eb108290ae0544210affeb24ec20cf219fe60b4e8e/import-ipynb-0.2.tar.gz", hash = "sha256:0a6db02db7973a35ed1bf007b837288b13374897282218e226d01a1eaecaff85", size = 5376, upload-time = "2024-10-09T06:04:53.734Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ec/62/e0b830773060d2a390aa923dcc8afc680d798bdbdadb6394f760fac62517/import_ipynb-0.2-py3-none-any.whl", hash = "sha256:cb9e41c65dd81ebaa8e1e3e1b591276f910fbaac9238960d6798aad28d4c323f", size = 4005, upload-time = "2024-10-09T06:04:52.598Z" },
 ]
 
 [[package]]
