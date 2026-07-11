@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.116.0",
     "beautifulsoup4>=4.15.0",
+    "gradio>=6.20.0",
     "import-ipynb>=0.2",
     "ipython>=9.15.0",
     "jupyterlab>=4.6.1",
